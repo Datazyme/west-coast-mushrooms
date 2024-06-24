@@ -4,6 +4,7 @@ import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout';
 import ErrorPage from './pages/ErrorPage';
+import Home from './pages/Home';
 import MushroomDetails from './pages/MushroomDetails'
 import MushroomFamilies from './pages/MushroomFamilies'
 import MushroomEdibility from './pages/MushroomEdibility'
