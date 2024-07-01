@@ -20,7 +20,7 @@ const router = createBrowserRouter([
       {index: true, element: <Home></Home>},
       {path: 'mushrooms/:id', element: <MushroomDetails></MushroomDetails>},
       {path: 'mushrooms/families/:family', element: <MushroomFamilies></MushroomFamilies>},
-      {path: 'mushrooms/edibility/id', element: <MushroomEdibility></MushroomEdibility>}
+      {path: 'mushrooms/edibility/:edibility', element: <MushroomEdibility></MushroomEdibility>}
     ]
   }
 ])
