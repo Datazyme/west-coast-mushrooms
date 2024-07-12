@@ -2,6 +2,7 @@ import React from "react";
 
 import FlyAgaric from './images/FlyAgaric.jpg'
 import red_crackingBolete from './images/red_crackingBolete.jpg'
+import bitterBoleteSide from './images/bitterBoleteSide.jpg'
 
 
 
@@ -27,6 +28,17 @@ const allMushrooms = [
     season: 'Summer to Late Fall',
     edibility: 'Edible',
     description: 'Caps are a dark brownish red. The rim of the cap is red and the stem has a streaked red look. The spores are contained within the spongy, bright yellow structures underneath the cap. The stems are red with red streaks.',
+  },
+  {
+    id: '3',
+    family: 'Boletaceae',
+    picture: bitterBoleteSide,
+    species: 'Tylopilus felleus',
+    names: 'Bitter Bolete',
+    habitat: 'Habitat: This bolete grows singly or in small groups on hardwood and conifer woods. It is mycorrhizal with hardwood trees, often beech. Literature places it as mostly growing in eastern Canada but it does grow at lower elevations on the west coast.',
+    season: 'Season: Early summer to mid-winter.',
+    edibility: 'Edibility: Edible but not choice, very bitter',
+    description: 'Description: Caps are beige to brown. Stalks are lighter than caps with a faint lattice of darker streaks. Spongy spores below the cap are light tan or brown but stain darker brown when bruised or damaged.',
   }
 ]
 

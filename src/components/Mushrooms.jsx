@@ -8,7 +8,7 @@ const Mushrooms = () => {
     <section>
       {
         mushroom.map(({id, family, picture, species, 
-          names, habitat, season, edibility, description}) => <MushroomItem key={id} musrhoomID={id}family={family}
+          names, habitat, season, edibility, description}) => <MushroomItem key={id} mushroomID={id}family={family}
           picture={picture} species={species} names={names} habitat={habitat} season={season}
           edibility={edibility} description={description}></MushroomItem>)
       }
