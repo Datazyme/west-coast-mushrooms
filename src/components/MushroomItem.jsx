@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import MushroomFamilies from '../pages/MushroomFamilies'
+
 
 const MushroomItem = ({mushroomID, family, picture, species, 
   names, habitat, season, edibility, description}) => {
@@ -15,10 +15,10 @@ const MushroomItem = ({mushroomID, family, picture, species,
         <h2>{species}</h2>
         </Link>
         <h3>({names})</h3>
-        <p>{habitat}</p>
-        <p>{season}</p>
-        <p>{edibility}</p>
-        <p>{description}</p>
+        <p>Habitat: {habitat}</p>
+        <p>Season: {season}</p>
+        <p>Edibility: {edibility}</p>
+        <p>Description: {description}</p>
     
       <div className='mushroom__footer'>
         <Link to={`mushrooms/families/${family}`} className='btn category'>{family}</Link>

@@ -285,31 +285,19 @@ nav {
     margin-top: 2rem;
 }
 
-.post__author {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-}
-
-.post__author-avatar {
-    width: 2.5rem;
-    aspect-ratio: 1/1;
-    border-radius: var(--radius-2);
-    overflow: hidden;
-}
 
 /*=================Post Detail==================*/
-.post-detail {
-  width: var(--form-width);
+.mushroom-detail {
   background: var(--color-white);
   margin-inline: auto;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
-.post-detail__header {
+.mushroom-detail__block {
   display: flex;
-  justify-content: space-between;
-  margin-bottom:  1.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-direction: row;
 }
 
 .post-detail__buttons {

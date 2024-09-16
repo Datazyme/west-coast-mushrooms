@@ -8,15 +8,26 @@ const MushroomDetails = () => {
   const species = allMushrooms.find(mushroom => mushroom.id === parseInt(id))
   //console.log(species)
   return (
-    <section className='post-detail'>
-
-      <h1>{species.names}</h1>
-      <div className='post-detail__thumbnail'>
-      <div className='mushroom__picture'>
+    <section className='mushroom-detail'>
+      <div className='mushroom-detail'>
+        <h1>{species.names}</h1>
+      </div>
+      <div className='mushroom-detail__block'>
+        <div className='mushroom__picture'>
           <img src={species.picdetail1} alt={species.names}></img>
         </div>
-       
+        <div className='mushroom__content'>{species.description}</div>
       </div>
+
+      
+      <div className='mushroom__picture'>
+      <h1>{species.names}</h1>
+          <img src={species.picdetail2} alt={species.names}></img>
+          
+        </div>
+      <div className='mushroom__content'>{species.description}</div>
+       
+      
     </section>
   )
 }
