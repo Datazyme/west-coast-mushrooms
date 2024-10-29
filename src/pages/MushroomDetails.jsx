@@ -16,18 +16,31 @@ const MushroomDetails = () => {
         <div className='mushroom__picture'>
           <img src={species.picdetail1} alt={species.names}></img>
         </div>
-        <div className='mushroom__content'>{species.description}</div>
+        <div className='mushroom__content'>
+          <h2>History</h2>
+          <p>{species.history}</p>
+        </div>
       </div>
 
-      
-      <div className='mushroom__picture'>
-      <h1>{species.names}</h1>
+      <div className='mushroom-detail__block'>
+        <div className='mushroom__picture'>
           <img src={species.picdetail2} alt={species.names}></img>
-          
         </div>
-      <div className='mushroom__content'>{species.description}</div>
-       
-      
+        <div className='mushroom__content'>
+          <h2>Biochemistry</h2>
+          <p>{species.biochemistry}</p>
+        </div>
+      </div>
+
+      <div className='mushroom-detail__block'>
+        <div className='mushroom__picture'>
+          <img src={species.picdetail7} alt={species.names}></img>
+        </div>
+        <div className='mushroom__content'>
+          <h2>Predators</h2>
+          <p>{species.predators}</p>
+        </div>
+      </div>
     </section>
   )
 }

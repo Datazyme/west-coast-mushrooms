@@ -55,7 +55,7 @@
 
   --transition: all 300ms ease;
 
-  --container-width-lg: 84%;
+  --container-width-lg: 95%;
   --container-width-md: 92%;
   --form-width: 50%;
 
@@ -78,10 +78,10 @@
 } */
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Almendra", serif;
   /* font-optical-sizing: auto; */
   background: var(--color-bg);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   color: var(--color-gray-700)
 }
@@ -122,15 +122,21 @@ h5 {
   line-height: 1.4;
 }
 
+p {
+  font-size: larger;
+  padding-top: 1rem;
+}
+
 img {
   display: block;
   object-fit: cover;
   width: 100%;
   border-radius: 25px;
+  pointer-events: none;
 }
 
 section {
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 .container {
@@ -208,7 +214,7 @@ nav {
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 10rem;
+  gap: 20%;
 }
 
 .title {
@@ -225,7 +231,7 @@ nav {
 .nav__logo {
   width: 6rem;
   display: block;
-  margin-left: 5rem;
+  margin-left: 2rem;
   border-radius: 25px;
 }
 
@@ -239,11 +245,10 @@ nav {
   display: none;
 }
 
-/*=================Home==================*/
-
-/*=================Posts==================*/
+/*=================MushroomItem==================*/
 .mushroom__picture {
   padding-right: 4rem;
+  pointer-events: none;
 }
 
 .mushroom {
@@ -265,10 +270,12 @@ nav {
     border-radius: var(--radius-3);
     overflow: hidden;
     height: 16rem;
+    pointer-events: none;
 }
 
 .mushroom__content {
     margin-top: 1.5rem;
+    max-width: 50%;
 
 }
 
@@ -286,7 +293,7 @@ nav {
 }
 
 
-/*=================Post Detail==================*/
+/*=================Mushroom Detail==================*/
 .mushroom-detail {
   background: var(--color-white);
   margin-inline: auto;
@@ -306,12 +313,12 @@ nav {
   align-items: center;
 }
 
-.post-detail__thumbnail {
+/* .post-detail__thumbnail {
   margin: 1rem 0;
   height: fit-content;
   max-height: 30rem;
   overflow: hidden;
-}
+} */
 
 .post-detail p {
   margin-bottom: 0.7rem;
