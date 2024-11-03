@@ -368,7 +368,7 @@ footer {
   }
   
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
   }
   
@@ -399,20 +399,10 @@ footer {
   
   img {
     display: block;
-    object-fit: cover;
     width: 100%;
-    border-radius: 25px;
     pointer-events: none;
   }
   
-  section {
-    margin-top: 10rem;
-  }
-  
-  .container {
-    width: var(--container-width-lg);
-    margin-inline: auto;
-  }
 
   /* Navbar */
   .nav__container {
