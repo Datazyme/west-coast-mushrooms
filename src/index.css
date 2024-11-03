@@ -102,15 +102,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 4rem;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 1.9rem;
+  font-family: "Almendra Display", serif;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-family: "Almendra Display", serif;
+  font-size: 2rem;
   line-height: 1.25;
 }
 
@@ -200,18 +204,18 @@ section {
 /*=================Navbar==================*/
 nav {
   width: 100%;
-  height: 8rem;
+  height: 9rem;
   background: rgba(164, 235, 195, 0.418);
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
   border-bottom: 4px solid rgb(0, 17, 12);
   backdrop-filter: blur(20px);
 }
 
 .nav__container {
   display: flex;
+  flex-direction: row;
   align-items: center;
   height: 100%;
   gap: 20%;
@@ -228,9 +232,10 @@ nav {
   height: 100%;
   color:rgb(0, 17, 12)
 }
+
 .nav__logo {
   width: 6rem;
-  display: block;
+ 
   margin-left: 2rem;
   border-radius: 25px;
 }
@@ -241,16 +246,8 @@ nav {
   gap: 3rem;
 } */
 
-.nav__toggle-btn {
-  display: none;
-}
 
 /*=================MushroomItem==================*/
-.mushroom__picture {
-  padding-right: 4rem;
-  pointer-events: none;
-}
-
 .mushroom {
     background: var(--color-white);
     padding: 4rem;
@@ -262,21 +259,18 @@ nav {
     flex-direction: row;
 }
 
-.post:hover {
-    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);    
+.mushroom__picture {
+  padding-right: 4rem;
+  pointer-events: none;
 }
 
-.post__thumbnail {
-    border-radius: var(--radius-3);
-    overflow: hidden;
-    height: 16rem;
-    pointer-events: none;
+.post:hover {
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);    
 }
 
 .mushroom__content {
     margin-top: 1.5rem;
     max-width: 50%;
-
 }
 
 .mushroom__content h3, h5 {
@@ -359,5 +353,44 @@ footer {
   padding: 1rem;
   color: var(--color-white);
   font-weight: 300;
+}
+
+/*=================@media Media queries==================*/
+@media screen and (max-width: 1000px) {
+
+  .container {
+      width: var(--container-width-md);
+  }
+
+  /* Navbar */
+  .nav__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .nav__logo {
+    width: 8rem;
+  }
+
+  .mushroom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mushroom__picture {
+    padding-right: 0rem;
+  }
+  .mushroom__content {
+    margin-top: 1.5rem;
+    max-width: 100%;
+  }
+
+
 }
 

@@ -34,7 +34,7 @@ const MushroomDetails = () => {
 
       <div className='mushroom-detail__block'>
         <div className='mushroom__picture'>
-          <img src={species.picdetail7} alt={species.names}></img>
+          <img src={species.picdetail3} alt={species.names}></img>
         </div>
         <div className='mushroom__content'>
           <h2>Predators</h2>

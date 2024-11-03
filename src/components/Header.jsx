@@ -12,9 +12,7 @@ const Header = () => {
           <img src={logo1} alt='Navbar Logo'></img>
         </Link>
         <h1 className='title'>West Coast Mushrooms</h1>
-        <button className='nav__toggle-btn'>
-          This is a button
-        </button>
+
       </div>
     </nav>
   )
