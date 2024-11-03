@@ -393,7 +393,7 @@ footer {
   }
   
   p {
-    font-size: larger;
+    font-size: small;
     padding-top: 1rem;
   }
   
@@ -402,6 +402,11 @@ footer {
     width: 100%;
     pointer-events: none;
   }
+  
+  section {
+    margin-top: 10rem;
+  }
+  
   
 
   /* Navbar */
@@ -423,6 +428,7 @@ footer {
   .mushroom {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
   }
 
   .mushroom__picture {
