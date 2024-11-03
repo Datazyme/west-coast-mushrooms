@@ -359,7 +359,59 @@ footer {
 @media screen and (max-width: 1000px) {
 
   .container {
-      width: var(--container-width-md);
+      width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-gray-900);
+    line-height: 1.1;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  
+  h2 {
+    font-family: "Almendra Display", serif;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  
+  h3 {
+    font-family: "Almendra Display", serif;
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+  }
+  
+  h5 {
+    line-height: 1.4;
+  }
+  
+  p {
+    font-size: larger;
+    padding-top: 1rem;
+  }
+  
+  img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px;
+    pointer-events: none;
+  }
+  
+  section {
+    margin-top: 10rem;
+  }
+  
+  .container {
+    width: var(--container-width-lg);
+    margin-inline: auto;
   }
 
   /* Navbar */
@@ -371,11 +423,11 @@ footer {
   }
 
   .title {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .nav__logo {
-    width: 8rem;
+    width: 4rem;
   }
 
   .mushroom {
