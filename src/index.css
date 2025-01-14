@@ -106,11 +106,11 @@ h1 {
   font-weight: 400;
 }
 
-h2 {
+/* h2 {
   font-family: "Almendra Display", serif;
   font-size: 3rem;
   font-weight: 400;
-}
+} */
 
 /* .h2:hover {
   background: rebeccapurple;
@@ -367,11 +367,11 @@ footer {
     font-weight: 400;
   }
   
-  h2 {
+  /* h2 {
     font-family: "Almendra Display", serif;
     font-size: 3rem;
     font-weight: 400;
-  }
+  } */
   
   h3 {
     font-family: "Almendra Display", serif;
