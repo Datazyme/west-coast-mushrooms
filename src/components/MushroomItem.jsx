@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
+//This page describes each mushroom, displays listed categories within each mushroom id taken from database. This is imported in mushrooms.jsx where each id is displayed in column according to the instructions on this page.
 const MushroomItem = ({mushroomID, family, picture, species, 
   names, habitat, season, edibility, description}) => {
   return (

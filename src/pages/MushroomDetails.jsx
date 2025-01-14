@@ -4,7 +4,10 @@ import { allMushrooms } from '../mDatabase'
 
 
 const MushroomDetails = () => {
+  //'id' below is stored as a string
   const {id} = useParams();
+  //console.log(typeof id)
+  //the paseInt turns a string into an integer
   const species = allMushrooms.find(mushroom => mushroom.id === parseInt(id))
   //console.log(species)
   return (

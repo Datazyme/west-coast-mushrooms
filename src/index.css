@@ -112,6 +112,11 @@ h2 {
   font-weight: 400;
 }
 
+/* .h2:hover {
+  background: rebeccapurple;
+  color: rebeccapurple;
+} */
+
 h3 {
   font-family: "Almendra Display", serif;
   font-size: 2rem;
@@ -235,7 +240,6 @@ nav {
 
 .nav__logo {
   width: 6rem;
- 
   margin-left: 2rem;
   border-radius: 25px;
 }
@@ -262,10 +266,6 @@ nav {
 .mushroom__picture {
   padding-right: 4rem;
   pointer-events: none;
-}
-
-.post:hover {
-    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);    
 }
 
 .mushroom__content {
@@ -361,11 +361,6 @@ footer {
   .container {
       width: 100%;
   }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: var(--color-gray-900);
-    line-height: 1.1;
-  }
   
   h1 {
     font-size: 3rem;
@@ -393,7 +388,7 @@ footer {
   }
   
   p {
-    font-size: small;
+    font-size: medium;
     padding-top: 1rem;
   }
   

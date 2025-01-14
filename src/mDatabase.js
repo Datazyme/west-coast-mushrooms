@@ -7,9 +7,8 @@ import Amanita_bigfam from './images/Amanita_bigfam.jpg'
 import BigAmanitaTop from './images/BigAmanitaTop.jpg'
 import BleedingTooth1 from './images/BleedingTooth1.jpg'
 import ThreeBigAmanitaTop from './images/ThreeBigAmanitaTop.jpg'
-import Baby_amanita from './images/Baby_amanita.jpg'
-import Baby_amanita1 from './images/Baby_amanita1.jpg'
 import Baby_amanita_bite1 from './images/Baby_amanita_bite1.jpg'
+import Oyster_mush_top1 from './images/Oyster_mush_top1.jpg'
 
 
 
@@ -61,10 +60,22 @@ export const allMushrooms = [
     picture: bitterBoleteSide,
     species: 'Tylopilus felleus',
     names: 'Bitter Bolete',
-    habitat: 'Habitat: This bolete grows singly or in small groups on hardwood and conifer woods. It is mycorrhizal with hardwood trees, often beech. Literature places it as mostly growing in eastern Canada but it does grow at lower elevations on the west coast.',
-    season: 'Season: Early summer to mid-winter.',
-    edibility: 'Edibility: Edible but not choice, very bitter',
-    description: 'Description: Caps are beige to brown. Stalks are lighter than caps with a faint lattice of darker streaks. Spongy spores below the cap are light tan or brown but stain darker brown when bruised or damaged.',
+    habitat: 'This bolete grows singly or in small groups on hardwood and conifer woods. It is mycorrhizal with hardwood trees, often beech. Literature places it as mostly growing in eastern Canada but it does grow at lower elevations on the west coast.',
+    season: 'Early summer to mid-winter.',
+    edibility: 'Edible but not choice, very bitter',
+    description: 'Caps are beige to brown. Stalks are lighter than caps with a faint lattice of darker streaks. Spongy spores below the cap are light tan or brown but stain darker brown when bruised or damaged.',
+    picdetail1: ThreeBigAmanitaTop,
+  },
+  {
+    id: 5,
+    family: 'Pleurotaceae',
+    picture: Oyster_mush_top1,
+    species: 'Pleurotus pulmonarius',
+    names: 'Oyster Mushroom',
+    habitat: ' Spread throughout the world in temperate and subtropical forests. Grows on dead hardwoods such as alder, cottonwood, aspen and willow and on conifers in the pacific northwest. This mushroom has been grown commercially as it can grow on numerous substrates such as coffee grounds, wood chips and straw.',
+    season: 'Late spring to early fall.',
+    edibility: 'Edible, tasty',
+    description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',
     picdetail1: ThreeBigAmanitaTop,
   }
 ]
