@@ -6,15 +6,26 @@ import bitterBoleteSide from './images/bitterBoleteSide.jpg'
 import Amanita_bigfam from './images/Amanita_bigfam.jpg'
 import BigAmanitaTop from './images/BigAmanitaTop.jpg'
 import BleedingTooth1 from './images/BleedingTooth1.jpg'
-import ThreeBigAmanitaTop from './images/ThreeBigAmanitaTop.jpg'
 import Baby_amanita_bite1 from './images/Baby_amanita_bite1.jpg'
 import Oyster_mush_top1 from './images/Oyster_mush_top1.jpg'
+import BirdsEggWithEggs from './images/BirdsEggWithEggs.jpg'
 
 
 
 export const allMushrooms = [
   {
     id: 1,
+    family: 'Agaricaceae',
+    picture: BirdsEggWithEggs,
+    species: 'Nidula niveotomentosa',
+    names: "Bird's Nest Fungus",
+    habitat: 'Globally distributed. These fungi are saprotrophs and grow on dead wood. They prefer moist environments.',
+    season: 'Late spring to early fall.',
+    edibility: 'Not known',
+    description: "Bird's egg fungus is very small, around one centimeter or less in diameter and height. They grow upright on dead branches. During reporoduction structures that look like a clutch of  flattened eggs appear at the bottom of the inside of the bowl. These egg like structures are called periodoles and contain the spores. They are attached to the cup by a thin cord called a 'funiculus'.",
+  },
+  {
+    id: 2,
     family: 'Amanitaceae',
     picture: Amanita_bigfam,
     species: 'Amanita muscaria',
@@ -31,7 +42,7 @@ export const allMushrooms = [
     predators: "Although Amanitas are toxic to humans other animals are able to consume them without adverse effects. They are eaten by reindeer, squirrel, turkey, grouse, jays, slugs, fungus gnats and parasitic fungi such as  'Amanita mold’ (Hypomyces hyalinus) to name a few."
   },
   {
-    id: 2,
+    id: 3,
     family: 'Bankeraceae',
     picture: BleedingTooth1,
     species: 'Hydnellum peckii',
@@ -43,7 +54,7 @@ export const allMushrooms = [
     picdetail1: BigAmanitaTop,
   },
   {
-    id: 3,
+    id: 4,
     family: 'Boletaceae',
     picture: red_crackingBolete,
     species: 'Xerocomellus zelleri',
@@ -55,7 +66,7 @@ export const allMushrooms = [
     picdetail1: BigAmanitaTop,
   },
   {
-    id: 4,
+    id: 5,
     family: 'Boletaceae',
     picture: bitterBoleteSide,
     species: 'Tylopilus felleus',
@@ -64,10 +75,10 @@ export const allMushrooms = [
     season: 'Early summer to mid-winter.',
     edibility: 'Edible but not choice, very bitter',
     description: 'Caps are beige to brown. Stalks are lighter than caps with a faint lattice of darker streaks. Spongy spores below the cap are light tan or brown but stain darker brown when bruised or damaged.',
-    picdetail1: ThreeBigAmanitaTop,
+    // picdetail1: ThreeBigAmanitaTop,
   },
   {
-    id: 5,
+    id: 6,
     family: 'Pleurotaceae',
     picture: Oyster_mush_top1,
     species: 'Pleurotus pulmonarius',
@@ -76,7 +87,7 @@ export const allMushrooms = [
     season: 'Late spring to early fall.',
     edibility: 'Edible, tasty',
     description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',
-    picdetail1: ThreeBigAmanitaTop,
+    // picdetail1: ThreeBigAmanitaTop,
   }
 ]
 

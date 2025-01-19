@@ -19,7 +19,7 @@ const MushroomDetails = () => {
         <div className='mushroom__picture'>
           <img src={species.picdetail1} alt={species.names}></img>
         </div>
-        <div className='mushroom__content'>
+        <div className='mushroom-content-block'>
           <h2>History</h2>
           <p>{species.history}</p>
         </div>

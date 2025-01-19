@@ -22,7 +22,7 @@ const MushroomItem = ({mushroomID, family, picture, species,
         <p>Description: {description}</p>
     
       <div className='mushroom__footer'>
-        <Link to={`mushrooms/families/${family}`} className='btn category'>{family}</Link>
+        <Link to={`mushrooms/families/${family}`} className='btn'>{family}</Link>
       </div>
     </div>
 
