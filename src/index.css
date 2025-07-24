@@ -111,9 +111,9 @@ h2 {
   font-weight: 400;
 }
 
-.h2:hover {
-  background: rgb(223, 64, 6);
-  color: rgb(210, 52, 8);
+h2:hover {
+  color: rgb(79, 3, 145);
+  font-size: 4rem;
 }
 
 h3 {

@@ -17,7 +17,7 @@ const MushroomFamilies = () => {
             <img src={item.picture} alt={item.names}></img>
           </div>
           <div className='mushroom__content'>
-            <h2>History</h2>
+            <h2>Description</h2>
             <p>{item.description}</p>
           </div>
         </div></>))}

@@ -9,6 +9,12 @@ import BleedingTooth1 from './images/BleedingTooth1.jpg'
 import Baby_amanita_bite1 from './images/Baby_amanita_bite1.jpg'
 import Oyster_mush_top1 from './images/Oyster_mush_top1.jpg'
 import BirdsEggWithEggs from './images/BirdsEggWithEggs.jpg'
+import birdsNestGroup from './images/birdsNestGroup.jpg'
+import orangecup1 from './images/orangecup1.jpeg'
+import SpringOrangePeel from './images/SpringOrangePeel.jpg'
+import SpringOrangePeel1 from './images/SpringOrangePeel1.jpg'
+import BrokenOrangePeel from './images/BrokenOrangePeel.jpg'
+
 
 
 
@@ -23,6 +29,7 @@ export const allMushrooms = [
     season: 'Late spring to early fall.',
     edibility: 'Not known',
     description: "Bird's egg fungus is very small, around one centimeter or less in diameter and height. They grow upright on dead branches. During reporoduction structures that look like a clutch of  flattened eggs appear at the bottom of the inside of the bowl. These egg like structures are called periodoles and contain the spores. They are attached to the cup by a thin cord called a 'funiculus'.",
+    picdetail1: birdsNestGroup
   },
   {
     id: 2,
@@ -37,8 +44,8 @@ export const allMushrooms = [
     picdetail1: BigAmanitaTop,
     picdetail2: AmanitaSadddle,
     picdetail3: Baby_amanita_bite1,
-    history: 'The mushroom stands out in any environment with its beautiful, bright coloured cap starkly contrasting with the white spots. It has attracted people for centuries becoming a part of many cultures and has become an iconic, most recognized mushroom. It is often depicted in fantasy art work especially pertaining to fairy tales. Although it grows in most places in the world today, it is thought to have originated in the forests of northern Europe and Siberia. It was used by indigenous people across Siberia as an entheogen and as a fly trap in Slovenia.',
-    biochemistry: "Due to it's long standing historical association with people, amanita muscaria is one the most studied mushrooms. Ibotenic acid and muscimol are the principal biologically active agents of Amanita muscaria and related species of mushroom. They are structurally related to two major neurotransmitters of the human central nervous system. Ibotenic acid mimics glutamic acid and binds its NMDA glutamate receptors. Muscimol mimics GABA and binds its GABAA receptor. Both activate (are agonists of) their respective receptors thereby producing the toxic, psychoactive and hallucinogenic effects.Ibotenic acid is a powerful neurotoxin on it own and is also converted to muscanol by the liver which is a more stable compound than ibotenic acid. When ibotenic acid binds and activates NMDA glutamate receptors it allows excess Ca2+ into neurons thereby triggering a signalling cascade that results in neuronal death. The effects of ibotenic acid are usually experienced within 30–60 minutes after ingestion. The most common symptoms include nausea, vomiting, and drowsiness. An hour after ingestion symptoms include confusion, euphoria, visual and auditory distortions, sensations of floating, and retrograde amnesia. Most of the consumed muscimol is not metabolized and is excreted in the urine. When metabolized it binds to the same location on the GABAA receptor as GABA. GABAA receptors are widespread throughout the nervous systems. The binding of agonistic ligands such as GABA and muscimol causes an inhibitory effect on the neuron, decreasing the chance of it firing. In other words activating GABA receptors actively PREVENTS the neuron from firing. The effects of ingesting muscimol can be felt about one hour after consumption and can last 10 -24hrs. Symptoms include euphoria, muscle relaxation, sedation, hallucinations and nausea.",
+    background: 'The mushroom stands out in any environment with its beautiful, bright coloured cap starkly contrasting with the white spots. It has attracted people for centuries becoming a part of many cultures and has become an iconic, most recognized mushroom. It is often depicted in fantasy art work especially pertaining to fairy tales. Although it grows in most places in the world today, it is thought to have originated in the forests of northern Europe and Siberia. It was used by indigenous people across Siberia as an entheogen and as a fly trap in Slovenia.',
+    biology: "Due to it's long standing historical association with people, amanita muscaria is one the most studied mushrooms. Ibotenic acid and muscimol are the principal biologically active agents of Amanita muscaria and related species of mushroom. They are structurally related to two major neurotransmitters of the human central nervous system. Ibotenic acid mimics glutamic acid and binds its NMDA glutamate receptors. Muscimol mimics GABA and binds its GABAA receptor. Both activate (are agonists of) their respective receptors thereby producing the toxic, psychoactive and hallucinogenic effects.Ibotenic acid is a powerful neurotoxin on it own and is also converted to muscanol by the liver which is a more stable compound than ibotenic acid. When ibotenic acid binds and activates NMDA glutamate receptors it allows excess Ca2+ into neurons thereby triggering a signalling cascade that results in neuronal death. The effects of ibotenic acid are usually experienced within 30–60 minutes after ingestion. The most common symptoms include nausea, vomiting, and drowsiness. An hour after ingestion symptoms include confusion, euphoria, visual and auditory distortions, sensations of floating, and retrograde amnesia. Most of the consumed muscimol is not metabolized and is excreted in the urine. When metabolized it binds to the same location on the GABAA receptor as GABA. GABAA receptors are widespread throughout the nervous systems. The binding of agonistic ligands such as GABA and muscimol causes an inhibitory effect on the neuron, decreasing the chance of it firing. In other words activating GABA receptors actively PREVENTS the neuron from firing. The effects of ingesting muscimol can be felt about one hour after consumption and can last 10 -24hrs. Symptoms include euphoria, muscle relaxation, sedation, hallucinations and nausea.",
     predators: "Although Amanitas are toxic to humans other animals are able to consume them without adverse effects. They are eaten by reindeer, squirrel, turkey, grouse, jays, slugs, fungus gnats and parasitic fungi such as  'Amanita mold’ (Hypomyces hyalinus) to name a few."
   },
   {
@@ -79,11 +86,28 @@ export const allMushrooms = [
   },
   {
     id: 6,
+    family: 'Caloscyphaceae',
+    picture: orangecup1,
+    species: 'Caloscypha fulgens',
+    names: 'Spring Orange Peel Fungus, Golden Cup, Dazzling Cup',
+    habitat: 'Parasitizes dormant seeds of the Sitka spruce. Very common throughout the pacific northwest usually found under conifers. It is also found in Sweden, The Netherlands, and Turkey. It is listed on the Red List of protected species in Slovakia',
+    season: 'Spring (March to July in British Columbia).',
+    edibility: 'Indeterminate. Potentially non-poisonous but inedible.',
+    description: "This mushroom looks like it belongs to the family of cup mushrooms Pezizaceae which it's look-alike Aleuria aurantia (orange peel fungus) belongs to. Though both belong to the order Pezizales, in 2002 a new family, Caloscyphaceae, was created for this cup mushroom of which it is the only genus and species. The bluish colouring predominantly on the outside of the cup is unique in the order Pezizales.  The life cycle of Caloscypha fulgens has two distinct forms which were previously thought to be different organisms. The first stage is asexual, called an 'imperfect state'. This stage is the parasitic form of the fungus, known as the plant pathogen Geniculodendron pyrofirme, which infects the dormant Sitka seeds. The second stage is the one that is represented by a fruiting body such as the one shown here. The seconds stage produces spores and reproduces sexually.",
+    picdetail1: SpringOrangePeel,
+    picdetail2: SpringOrangePeel1,
+    picdetail3: BrokenOrangePeel,
+    background: "Unknown",
+    biology: "Unknown",
+    predators: "Unknown"
+  },
+  {
+    id: 7,
     family: 'Pleurotaceae',
     picture: Oyster_mush_top1,
     species: 'Pleurotus pulmonarius',
     names: 'Oyster Mushroom',
-    habitat: ' Spread throughout the world in temperate and subtropical forests. Grows on dead hardwoods such as alder, cottonwood, aspen and willow and on conifers in the pacific northwest. This mushroom has been grown commercially as it can grow on numerous substrates such as coffee grounds, wood chips and straw.',
+    habitat: 'Spread throughout the world in temperate and subtropical forests. Grows on dead hardwoods such as alder, cottonwood, aspen and willow and on conifers in the pacific northwest. This mushroom has been grown commercially as it can grow on numerous substrates such as coffee grounds, wood chips and straw.',
     season: 'Late spring to early fall.',
     edibility: 'Edible, tasty',
     description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',

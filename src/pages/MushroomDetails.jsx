@@ -20,8 +20,8 @@ const MushroomDetails = () => {
           <img src={species.picdetail1} alt={species.names}></img>
         </div>
         <div className='mushroom-content-block'>
-          <h2>History</h2>
-          <p>{species.history}</p>
+          <h2>Background</h2>
+          <p>{species.background}</p>
         </div>
       </div>
 
@@ -30,8 +30,8 @@ const MushroomDetails = () => {
           <img src={species.picdetail2} alt={species.names}></img>
         </div>
         <div className='mushroom__content'>
-          <h2>Biochemistry</h2>
-          <p>{species.biochemistry}</p>
+          <h2>Biology</h2>
+          <p>{species.biology}</p>
         </div>
       </div>
 
