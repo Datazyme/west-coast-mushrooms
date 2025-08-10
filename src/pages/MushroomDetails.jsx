@@ -40,8 +40,10 @@ const MushroomDetails = () => {
           <img src={species.picdetail3} alt={species.names}></img>
         </div>
         <div className='mushroom__content'>
-          <h2>Predators</h2>
-          <p>{species.predators}</p>
+          <h2>Medley</h2>
+          <p>{species.medley}</p>
+          <h2>Links</h2>
+          <p>{species.links}</p>
         </div>
       </div>
     </section>
