@@ -29,7 +29,7 @@ const MushroomDetails = () => {
         <div className='mushroom__picture'>
           <img src={species.picdetail2} alt={species.names}></img>
         </div>
-        <div className='mushroom__content'>
+        <div className='mushroom-content-block'>
           <h2>Biology</h2>
           <p>{species.biology}</p>
         </div>
@@ -39,11 +39,28 @@ const MushroomDetails = () => {
         <div className='mushroom__picture'>
           <img src={species.picdetail3} alt={species.names}></img>
         </div>
-        <div className='mushroom__content'>
+        <div className='mushroom-content-block'>
           <h2>Medley</h2>
           <p>{species.medley}</p>
-          <h2>Links</h2>
-          <p>{species.links}</p>
+  
+          {species.references && species.references.length > 0 && (
+            <>
+              <h3>References</h3>
+              <ul>
+                {species.references.map((ref, index) => (
+                  <li key={index}>
+                    <a
+                      href={ref.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {ref.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
       </div>
     </section>

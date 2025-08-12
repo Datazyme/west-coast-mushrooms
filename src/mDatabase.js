@@ -36,9 +36,18 @@ export const allMushrooms = [
     picdetail3: birdsEggNoEgg,
     background: `Bird's nest fungi were first identified in 1601 by Carolus Clusius. They were originally classified into the family Nidulariaceae. However, the genus Nidula was reclassified into the family Agaricaceae in 1902. The reclassification was due to the absence of the funicular cord or the cord that attaches the eggs to the inside of the fruiting body. Other species of bird's nest fungus differ in colour and morphology. Nidula candida is extremely common on the west coast. It can be found growing on logs or branches of moss covered cedars.`,
     biology: `The fruiting bodies of this fungus are quite small, on the order of millimetres in both height and width and look like a cup with eggs in it. The entire fruiting body is called a peridiole (pl. peridia). They can grow singly or in groups. The genera belonging to of the two families of birds nest fungi (Agaricaceae  and Nidulariaceae) can look very much alike. This makes distinguishing them a bit of a challenge especially since the fungi are so small. Key differences lie in the colour of the  eggs, the presence or absence of a funiculus and a flared or straight lip of the cup. The outside of the cup is covered in shaggy hairs (tomentum). Inside the cup there is a cluster of cluster of eggs (peridioles).  The peridioles house the spores (basidiospores) and the spore producing structures (basidia), which are surrounded by a hard outer wall.  Immature peridia have a membrane, called an epiphragm, which covers the cup. Immature peridioles are embedded in a gelatinous mix.  Upon maturity the epiphragm ruptures and the eggs are exposed. The fungus can reproduce both sexually and asexually. Spores are haploid. After dispersion and germination, if two hyphae of different mating types meet they fuse to produce diploid structures called dikaryotic mycelia. It is from these that the peridia form and the cycle is repeated. Nests are "splash cups" which disperse peridioles by taking advantage of raindrops landing inside the cups and expelling the eggs out of the cup.`,
-    medley: `In most species, the peridioles are dispersed by rain, but they may also be free in the peridium, surrounded by a jelly-like mucilage`,
+    medley: `Eggs are splashed out of the cup to a mean distance of about 8mm. Species in the family Nidulariaceae have a funicular cord, a sticky cord attached to the egg, and use it to stick to surrounding surfaces. The spores can also use rain water to increase the distance of dispersal by utilizing the rivulets created by heavy rains.  It is possible that the spores can also be spread by herbivores who consume them with the vegetation they grow on. It is not known which animals consume them with vegetation or if they have any predators.`,
     similarSpecies: ``,
-    links: <a href="https://en.wikipedia.org/wiki/Nidula">Wikipedia-Nidula</a> 
+    references: [
+      {
+        title: `Wikipedia - Nidula`,
+        url: `https://en.wikipedia.org/wiki/Nidula`
+      },
+      {
+        title: `Short-range splash discharge of peridioles in Nidularia`,
+        url: `https://pubmed.ncbi.nlm.nih.gov/25986543/`
+      },
+    ]
   },
   {
     id: 2,
