@@ -1,21 +1,26 @@
 import React from "react";
 
+//go with capitals for start of image names
 import AmanitaSadddle from './images/AmanitaSaddle.jpg'
-import red_crackingBolete from './images/red_crackingBolete.jpg'
-import bitterBoleteSide from './images/bitterBoleteSide.jpg'
+import Red_crackingBolete from './images/Red_crackingBolete.jpg'
+import BitterBoleteSide from './images/BitterBoleteSide.jpg'
 import Amanita_bigfam from './images/Amanita_bigfam.jpg'
 import BigAmanitaTop from './images/BigAmanitaTop.jpg'
 import BleedingTooth1 from './images/BleedingTooth1.jpg'
+import BleedingToothAdult1 from './images/BleedingToothAdult1.jpg'
+import BleedingToothAdult2 from './images/BleedingToothAdult2.jpg'
+import BleedingToothAdult3 from './images/BleedingToothAdult3.jpg'
 import Baby_amanita_bite1 from './images/Baby_amanita_bite1.jpg'
 import Oyster_mush_top1 from './images/Oyster_mush_top1.jpg'
 import BirdsEggWithEggs from './images/BirdsEggWithEggs.jpg'
-import birdsNestGroup from './images/birdsNestGroup.jpg'
-import orangecup1 from './images/orangecup1.jpeg'
+import BirdsNestGroup from './images/BirdsNestGroup.jpg'
+import Orangecup1 from './images/Orangecup1.jpeg'
 import SpringOrangePeel from './images/SpringOrangePeel.jpg'
 import SpringOrangePeel1 from './images/SpringOrangePeel1.jpg'
 import BrokenOrangePeel from './images/BrokenOrangePeel.jpg'
-import birdsNestSide from './images/birdsNestSide.jpg'
-import birdsEggNoEgg from './images/birdsEggNoEgg.jpg'
+import BirdsNestSide from './images/BirdsNestSide.jpg'
+import BirdsEggNoEgg from './images/BirdsEggNoEgg.jpg'
+
 
 
 
@@ -31,9 +36,9 @@ export const allMushrooms = [
     season: 'Late spring to early fall.',
     edibility: 'Not known',
     description: "Bird's egg fungus is very small, around one centimeter or less in diameter and height. They grow upright on dead branches. During reporoduction structures that look like a clutch of flattened eggs appear at the bottom of the inside of the bowl. These egg like structures are called periodoles and contain the spores.",
-    picdetail1: birdsNestSide,
-    picdetail2: birdsNestGroup,
-    picdetail3: birdsEggNoEgg,
+    picdetail1: BirdsNestSide,
+    picdetail2: BirdsNestGroup,
+    picdetail3: BirdsEggNoEgg,
     background: `Bird's nest fungi were first identified in 1601 by Carolus Clusius. They were originally classified into the family Nidulariaceae. However, the genus Nidula was reclassified into the family Agaricaceae in 1902. The reclassification was due to the absence of the funicular cord or the cord that attaches the eggs to the inside of the fruiting body. Other species of bird's nest fungus differ in colour and morphology. Nidula candida is extremely common on the west coast. It can be found growing on logs or branches of moss covered cedars.`,
     biology: `The fruiting bodies of this fungus are quite small, on the order of millimetres in both height and width and look like a cup with eggs in it. The entire fruiting body is called a peridiole (pl. peridia). They can grow singly or in groups. The genera belonging to of the two families of birds nest fungi (Agaricaceae  and Nidulariaceae) can look very much alike. This makes distinguishing them a bit of a challenge especially since the fungi are so small. Key differences lie in the colour of the  eggs, the presence or absence of a funiculus and a flared or straight lip of the cup. The outside of the cup is covered in shaggy hairs (tomentum). Inside the cup there is a cluster of cluster of eggs (peridioles).  The peridioles house the spores (basidiospores) and the spore producing structures (basidia), which are surrounded by a hard outer wall.  Immature peridia have a membrane, called an epiphragm, which covers the cup. Immature peridioles are embedded in a gelatinous mix.  Upon maturity the epiphragm ruptures and the eggs are exposed. The fungus can reproduce both sexually and asexually. Spores are haploid. After dispersion and germination, if two hyphae of different mating types meet they fuse to produce diploid structures called dikaryotic mycelia. It is from these that the peridia form and the cycle is repeated. Nests are "splash cups" which disperse peridioles by taking advantage of raindrops landing inside the cups and expelling the eggs out of the cup.`,
     medley: `Eggs are splashed out of the cup to a mean distance of about 8mm. Species in the family Nidulariaceae have a funicular cord, a sticky cord attached to the egg, and use it to stick to surrounding surfaces. The spores can also use rain water to increase the distance of dispersal by utilizing the rivulets created by heavy rains.  It is possible that the spores can also be spread by herbivores who consume them with the vegetation they grow on. It is not known which animals consume them with vegetation or if they have any predators.`,
@@ -76,12 +81,14 @@ export const allMushrooms = [
     season: 'Late summer - early fall.',
     edibility: "Not known to be poisonous but are reported to be very bitter. It's amazing someone was brave enough to taste it!",
     description: "The shape of the fruiting body is irregular with pores that exude a red liquid when the mushroom is young. Several fruiting bodies can fuse together (confluence) when they are clustered. Underneath the cap the mushroom is conical or block like and is covered in teeth-like hymeniam. These hymeniam are spore producing structures that look like tubes or teeth. Other mushrooms have gills or pores underneath the cap which produce spores. As the mushroom matures it stops producing the red liquid and the cap becomes brown.",
-    picdetail1: BigAmanitaTop,
+    picdetail1: BleedingToothAdult1,
+    picdetail2: BleedingToothAdult2,
+    picdetail3: BleedingToothAdult3
   },
   {
     id: 4,
     family: 'Boletaceae',
-    picture: red_crackingBolete,
+    picture: Red_crackingBolete,
     species: 'Xerocomellus zelleri',
     names: 'Zellers bolete',
     habitat: 'This bolete grows exclusively in Western North America from British Columbia to Mexico. It is fairly common in B.C. It often grows in Dougals fir forests and on decaying cedar stumps. It can grow solitary or in small groups.',
@@ -93,7 +100,7 @@ export const allMushrooms = [
   {
     id: 5,
     family: 'Boletaceae',
-    picture: bitterBoleteSide,
+    picture: BitterBoleteSide,
     species: 'Tylopilus felleus',
     names: 'Bitter Bolete',
     habitat: 'This bolete grows singly or in small groups on hardwood and conifer woods. It is mycorrhizal with hardwood trees, often beech. Literature places it as mostly growing in eastern Canada but it does grow at lower elevations on the west coast.',
@@ -105,7 +112,7 @@ export const allMushrooms = [
   {
     id: 6,
     family: 'Caloscyphaceae',
-    picture: orangecup1,
+    picture: Orangecup1,
     species: 'Caloscypha fulgens',
     names: 'Spring Orange Peel Fungus, Golden Cup, Dazzling Cup',
     habitat: 'Parasitizes dormant seeds of the Sitka spruce. Very common throughout the pacific northwest usually found under conifers. It is also found in Sweden, The Netherlands, and Turkey. It is listed on the Red List of protected species in Slovakia',
