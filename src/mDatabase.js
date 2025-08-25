@@ -7,6 +7,7 @@ import bitterBoleteSide from './images/bitterBoleteSide.jpg'
 import Amanita_bigfam from './images/Amanita_bigfam.jpg'
 import BigAmanitaTop from './images/BigAmanitaTop.jpg'
 import BleedingTooth1 from './images/BleedingTooth1.jpg'
+import BleedingToothAdult1 from './images/BleedingToothAdult1.jpg'
 import Baby_amanita_bite1 from './images/Baby_amanita_bite1.jpg'
 import Oyster_mush_top1 from './images/Oyster_mush_top1.jpg'
 import BirdsEggWithEggs from './images/BirdsEggWithEggs.jpg'
@@ -78,7 +79,7 @@ export const allMushrooms = [
     season: 'Late summer - early fall.',
     edibility: "Not known to be poisonous but are reported to be very bitter. It's amazing someone was brave enough to taste it!",
     description: "The shape of the fruiting body is irregular with pores that exude a red liquid when the mushroom is young. Several fruiting bodies can fuse together (confluence) when they are clustered. Underneath the cap the mushroom is conical or block like and is covered in teeth-like hymeniam. These hymeniam are spore producing structures that look like tubes or teeth. Other mushrooms have gills or pores underneath the cap which produce spores. As the mushroom matures it stops producing the red liquid and the cap becomes brown.",
-    picdetail1: BigAmanitaTop,
+    picdetail1: BleedingToothAdult1,
   },
   {
     id: 4,
