@@ -2,7 +2,7 @@ import React from "react";
 
 //go with capitals for start of image names
 import AmanitaSadddle from './images/AmanitaSaddle.jpg'
-import red_crackingBolete from './images/red_crackingBolete.jpg'
+import redCrackingBolete from './images/redCrackingBolete.jpg'
 import bitterBoleteSide from './images/bitterBoleteSide.jpg'
 import Amanita_bigfam from './images/Amanita_bigfam.jpg'
 import BigAmanitaTop from './images/BigAmanitaTop.jpg'
@@ -83,7 +83,7 @@ export const allMushrooms = [
   {
     id: 4,
     family: 'Boletaceae',
-    picture: red_crackingBolete,
+    picture: redCrackingBolete,
     species: 'Xerocomellus zelleri',
     names: 'Zellers bolete',
     habitat: 'This bolete grows exclusively in Western North America from British Columbia to Mexico. It is fairly common in B.C. It often grows in Dougals fir forests and on decaying cedar stumps. It can grow solitary or in small groups.',
