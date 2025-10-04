@@ -42,8 +42,10 @@ const MushroomDetails = () => {
         <div className='mushroom-content-block'>
           <h2>Medley</h2>
           <p>{species.medley}</p>
-  
-          {species.references && species.references.length > 0 && (
+          <p> <h3>Similar Species</h3></p>
+         
+          <p>{species.similarSpecies}</p>
+          <p>{species.references && species.references.length > 0 && (
             <>
               <h3>References</h3>
               <ul>
@@ -60,7 +62,7 @@ const MushroomDetails = () => {
                 ))}
               </ul>
             </>
-          )}
+          )}</p>
         </div>
       </div>
     </section>

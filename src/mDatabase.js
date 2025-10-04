@@ -41,8 +41,8 @@ export const allMushrooms = [
     picdetail3: birdsEggNoEgg,
     background: `Bird's nest fungi were first identified in 1601 by Carolus Clusius. They were originally classified into the family Nidulariaceae. However, the genus Nidula was reclassified into the family Agaricaceae in 1902. The reclassification was due to the absence of the funicular cord or the cord that attaches the eggs to the inside of the fruiting body. Other species of bird's nest fungus differ in colour and morphology. Nidula candida is extremely common on the west coast. It can be found growing on logs or branches of moss covered cedars.`,
     biology: `The fruiting bodies of this fungus are quite small, on the order of millimetres in both height and width and look like a cup with eggs in it. The entire fruiting body is called a peridiole (pl. peridia). They can grow singly or in groups. The genera belonging to of the two families of birds nest fungi (Agaricaceae  and Nidulariaceae) can look very much alike. This makes distinguishing them a bit of a challenge especially since the fungi are so small. Key differences lie in the colour of the  eggs, the presence or absence of a funiculus and a flared or straight lip of the cup. The outside of the cup is covered in shaggy hairs (tomentum). Inside the cup there is a cluster of cluster of eggs (peridioles).  The peridioles house the spores (basidiospores) and the spore producing structures (basidia), which are surrounded by a hard outer wall.  Immature peridia have a membrane, called an epiphragm, which covers the cup. Immature peridioles are embedded in a gelatinous mix.  Upon maturity the epiphragm ruptures and the eggs are exposed. The fungus can reproduce both sexually and asexually. Spores are haploid. After dispersion and germination, if two hyphae of different mating types meet they fuse to produce diploid structures called dikaryotic mycelia. It is from these that the peridia form and the cycle is repeated. Nests are "splash cups" which disperse peridioles by taking advantage of raindrops landing inside the cups and expelling the eggs out of the cup.`,
-    medley: `Eggs are splashed out of the cup to a mean distance of about 8mm. Species in the family Nidulariaceae have a funicular cord, a sticky cord attached to the egg, and use it to stick to surrounding surfaces. The spores can also use rain water to increase the distance of dispersal by utilizing the rivulets created by heavy rains.  It is possible that the spores can also be spread by herbivores who consume them with the vegetation they grow on. It is not known which animals consume them with vegetation or if they have any predators.`,
-    similarSpecies: ``,
+    medley: `Eggs are splashed out of the cup to a mean distance of about 8mm. Species in the family Nidulariaceae have a funicular cord, a sticky cord attached to the egg, and use it to stick to surrounding surfaces. The spores can also use rain water to increase the distance of dispersal by utilizing the rivulets created by heavy rains.  It is possible that the spores can also be spread by herbivores who consume them with the vegetation they grow on. It is not known which animals consume them with vegetation or if they have any predators. There is very little information on Birds Egg Fungus out there and I was not able to find any clear-cut methods for classifying them. The classification relies almost entirely on phenotype. Therefore one specimen may be assigned to any of the following species. The one pictured here can just as easily be assigned to the species N. niveo-tomentosa.`,
+    similarSpecies: `N. niveo-tomentosa, N. emodensis, N. shingbaensis`,
     references: [
       {
         title: `Wikipedia - Nidula`,
@@ -52,6 +52,18 @@ export const allMushrooms = [
         title: `Short-range splash discharge of peridioles in Nidularia`,
         url: `https://pubmed.ncbi.nlm.nih.gov/25986543/`
       },
+      {
+        title:`Complete mitochondrial genome of the bird’s nest fungus Nidula shingbaensis (Nidulariaceae, Agaricales)`,
+        url: `https://pmc.ncbi.nlm.nih.gov/articles/PMC11290291/`
+      },
+      {
+        title:`Australian Fungi - A Blog`,
+        url: `https://australianfungi.blogspot.com/2007/06/17-nidula-emodensis.html`
+      },
+      {
+        title:`The Wild World of Bird’s Nest Fungi: Identification Guide`,
+        url: `https://www.mushroom-appreciation.com/birds-nest-fungi-identification.html`
+      }
     ]
   },
   {
@@ -69,7 +81,27 @@ export const allMushrooms = [
     picdetail3: Baby_amanita_bite1,
     background: 'The mushroom stands out in any environment with its beautiful, bright coloured cap starkly contrasting with the white spots. It has attracted people for centuries becoming a part of many cultures and has become an iconic, most recognized mushroom. It is often depicted in fantasy art work especially pertaining to fairy tales. Although it grows in most places in the world today, it is thought to have originated in the forests of northern Europe and Siberia. It was used by indigenous people across Siberia as an entheogen and as a fly trap in Slovenia.',
     biology: "Due to it's long standing historical association with people, amanita muscaria is one the most studied mushrooms. Ibotenic acid and muscimol are the principal biologically active agents of Amanita muscaria and related species of mushroom. They are structurally related to two major neurotransmitters of the human central nervous system. Ibotenic acid mimics glutamic acid and binds its NMDA glutamate receptors. Muscimol mimics GABA and binds its GABAA receptor. Both activate (are agonists of) their respective receptors thereby producing the toxic, psychoactive and hallucinogenic effects.Ibotenic acid is a powerful neurotoxin on it own and is also converted to muscanol by the liver which is a more stable compound than ibotenic acid. When ibotenic acid binds and activates NMDA glutamate receptors it allows excess Ca2+ into neurons thereby triggering a signalling cascade that results in neuronal death. The effects of ibotenic acid are usually experienced within 30–60 minutes after ingestion. The most common symptoms include nausea, vomiting, and drowsiness. An hour after ingestion symptoms include confusion, euphoria, visual and auditory distortions, sensations of floating, and retrograde amnesia. Most of the consumed muscimol is not metabolized and is excreted in the urine. When metabolized it binds to the same location on the GABAA receptor as GABA. GABAA receptors are widespread throughout the nervous systems. The binding of agonistic ligands such as GABA and muscimol causes an inhibitory effect on the neuron, decreasing the chance of it firing. In other words activating GABA receptors actively PREVENTS the neuron from firing. The effects of ingesting muscimol can be felt about one hour after consumption and can last 10 -24hrs. Symptoms include euphoria, muscle relaxation, sedation, hallucinations and nausea.",
-    medley: "Although Amanitas are toxic to humans other animals are able to consume them without adverse effects. They are eaten by reindeer, squirrel, turkey, grouse, jays, slugs, fungus gnats and parasitic fungi such as  'Amanita mold’ (Hypomyces hyalinus) to name a few."
+    medley: "Although Amanitas are toxic to humans other animals are able to consume them without adverse effects. They are eaten by reindeer, squirrel, turkey, grouse, jays, slugs, fungus gnats and parasitic fungi such as  'Amanita mold’ (Hypomyces hyalinus) to name a few.",
+    similarSpecies:``,
+    references: [
+      {
+        title: `Wikipedia - Amanita muscaria`,
+        url:`https://en.wikipedia.org/wiki/Amanita_muscaria`
+      },
+      {
+        title: `Wikipedia - Muscarine`,
+        url: `https://en.wikipedia.org/wiki/Muscarine`
+      },
+      {
+        title: `Catching flies with Amanita muscaria: traditional recipes from Slovenia and their efficacy in the extraction of ibotenic acid`,
+        url: `https://pubmed.ncbi.nlm.nih.gov/27063872/`
+      },
+      {
+        title: `Do Differences in Chemical Composition of Stem and Cap of Amanita muscaria Fruiting Bodies Correlate with Topsoil Type?`,
+        url: `https://pmc.ncbi.nlm.nih.gov/articles/PMC4249817/`
+      }
+
+    ]
   },
   {
     id: 3,
