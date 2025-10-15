@@ -20,6 +20,9 @@ import SpringOrangePeel1 from './images/SpringOrangePeel1.jpg'
 import BrokenOrangePeel from './images/BrokenOrangePeel.jpg'
 import birdsNestSide from './images/birdsNestSide.jpg'
 import birdsEggNoEgg from './images/birdsEggNoEgg.jpg'
+import Pholiota_aurivella from './images/Pholiota_aurivella.jpg'
+import Bleeding_mycena from './images/Bleeding_mycena.jpg'
+
 
 
 
@@ -120,18 +123,6 @@ export const allMushrooms = [
   {
     id: 4,
     family: 'Boletaceae',
-    picture: redCrackingBolete,
-    species: 'Xerocomellus zelleri',
-    names: 'Zellers bolete',
-    habitat: 'This bolete grows exclusively in Western North America from British Columbia to Mexico. It is fairly common in B.C. It often grows in Dougals fir forests and on decaying cedar stumps. It can grow solitary or in small groups.',
-    season: 'Summer to Late Fall',
-    edibility: 'Edible',
-    description: 'Caps are a dark brownish red. The rim of the cap is red and the stem has a streaked red look. The spores are contained within the spongy, bright yellow structures underneath the cap. The stems are red with red streaks.',
-    picdetail1: BigAmanitaTop,
-  },
-  {
-    id: 5,
-    family: 'Boletaceae',
     picture: bitterBoleteSide,
     species: 'Tylopilus felleus',
     names: 'Bitter Bolete',
@@ -140,6 +131,18 @@ export const allMushrooms = [
     edibility: 'Edible but not choice, very bitter',
     description: 'Caps are beige to brown. Stalks are lighter than caps with a faint lattice of darker streaks. Spongy spores below the cap are light tan or brown but stain darker brown when bruised or damaged.',
     // picdetail1: ThreeBigAmanitaTop,
+  },
+  { 
+    id: 5,
+    family: 'Boletaceae',
+    picture: redCrackingBolete,
+    species: 'Xerocomellus zelleri',
+    names: 'Zellers bolete',
+    habitat: 'This bolete grows exclusively in Western North America from British Columbia to Mexico. It is fairly common in B.C. It often grows in Dougals fir forests and on decaying cedar stumps. It can grow solitary or in small groups.',
+    season: 'Summer to Late Fall',
+    edibility: 'Edible',
+    description: 'Caps are a dark brownish red. The rim of the cap is red and the stem has a streaked red look. The spores are contained within the spongy, bright yellow structures underneath the cap. The stems are red with red streaks.',
+    picdetail1: BigAmanitaTop,
   },
   {
     id: 6,
@@ -160,6 +163,18 @@ export const allMushrooms = [
   },
   {
     id: 7,
+    family: 'Mycenaceae',
+    picture: Bleeding_mycena,
+    species: 'Mycena haematopus',
+    names: 'Fairy Helmet, Bleeding Mycena',
+    habitat: 'Widespread in Europe and North American but also found worldwide. They are saprotrophic so grows on decaying wood. Often found on decaying stumps and logs of deciduous trees, often beech. They grow in clusters from a common base.',
+    season: 'Late spring to early fall.',
+    edibility: 'Edible, tasty',
+    description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',
+    // picdetail1: ThreeBigAmanitaTop,
+  },-
+  {
+    id: 8,
     family: 'Pleurotaceae',
     picture: Oyster_mush_top1,
     species: 'Pleurotus pulmonarius',
@@ -168,6 +183,18 @@ export const allMushrooms = [
     season: 'Late spring to early fall.',
     edibility: 'Edible, tasty',
     description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',
+    // picdetail1: ThreeBigAmanitaTop,
+  },
+  {
+    id: 9,
+    family: 'Strophariaceae',
+    picture: Pholiota_aurivella,
+    species: 'Pholiota aurivella',
+    names: 'Golden Pholiota',
+    habitat: 'Grows in clusters on decaying wood. Often found associated with mosses.',
+    season: 'Year round except winter.',
+    edibility: 'Inedible, not recommended.',
+    description: 'This mushroom is rather small and fragile. Perhaps about 5cm in height or less. It "bleeds" a dark red latex when cut or broken. The colour ranges from dark red to a reddish brown of both the stem and cap. The gills are a light reddish brown to white.',
     // picdetail1: ThreeBigAmanitaTop,
   }
 ]
