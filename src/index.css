@@ -43,6 +43,7 @@
 :root {
   --color-primary: rgb(157, 102, 179);
   --color-white: #fff;
+  --color-green: hsla(154, 88%, 33%, 0.416);
   --color-red: rgb(255, 63, 63);
   --color-gray-100: hsl(220, 20%, 10%, 5%);
   --color-gray-200: hsl(220, 20%, 10%, 10%);
@@ -80,7 +81,7 @@
 body {
   font-family: "Almendra", serif;
   /* font-optical-sizing: auto; */
-  background: var(--color-bg);
+  background: rgba(164, 235, 195, 0.418);
   font-size: 1.2rem;
   line-height: 1.6;
   color: var(--color-gray-700)
@@ -149,8 +150,9 @@ section {
 }
 
 .container {
-  width: var(--container-width-lg);
+  width: 98%;
   margin-inline: auto;
+  /* background: rgba(164, 235, 195, 0.418); */
 }
 
 .btn {
@@ -234,10 +236,25 @@ nav {
 
 
 /*=================MushroomItem==================*/
+.species_title {
+  font-family: "Almendra", serif;
+  /* background: rgba(147, 165, 235, 0.26); */
+  /* border:#0c0c22; */
+  padding-top: 2rem;
+  font-weight: 400;
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color:rgb(0, 17, 12)
+}
+
 .mushroom {
-    background: var(--color-white);
+    /* background: rgba(181, 233, 221, 0.333);
+    border:15px solid black;
+    border-style: groove; */
     padding: 4rem;
-    border-radius: var(--radius-4);
     padding-bottom: 2rem;
     transition: var(--transition);
     cursor: default;

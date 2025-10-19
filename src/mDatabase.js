@@ -22,6 +22,9 @@ import birdsNestSide from './images/birdsNestSide.jpg'
 import birdsEggNoEgg from './images/birdsEggNoEgg.jpg'
 import Pholiota_aurivella from './images/Pholiota_aurivella.jpg'
 import Bleeding_mycena from './images/Bleeding_mycena.jpg'
+import ShaggyParasol from './images/ShaggyParasol.jpg'
+import InkyGroup from './images/InkyGroup.jpg'
+import puffballGroup from './images/puffballGroup.jpeg'
 
 
 
@@ -31,6 +34,40 @@ import Bleeding_mycena from './images/Bleeding_mycena.jpg'
 export const allMushrooms = [
   {
     id: 1,
+    family: 'Agaricaceae',
+    familyHead: 'Agaricaceae',
+    picture: ShaggyParasol,
+    species: 'Chlorophyllum rhacodes complex',
+    names: 'Shaggy Parasol',
+    habitat: 'Widely spread across North America, Europe and Africa. The name Shaggy Parasol actually encompasses three very similar looking species Chlorophyllum rhacodes, C. olivieri and C. brunneum.s',
+    season: 'Summer to Autumn',
+    edibility: 'Variable. It is very similar to the edible and choice mushroom Macrolepiota procera (parasol mushroom) which is common in Europe. The shaggy parasol can cause gastric upset and trigger an allergic reaction. It can also be mistaken for the poisonous Chlorophyllum molybdites which can be identified from their green sporte print. The spore print of Chlorophyllum rhacodes is white not green.',
+    description: 'The mushroom is saprobic. It grows individually or in a group. It prefers disturbed ground around conifers. The cap is white to brown with a shaggy appearance. The stalk is thin with a skirt and gets more brown with age. The gills are also white and take on a brownish tinge with age.',
+  },
+  {
+    id: 2,
+    family: 'Agaricaceae',
+    picture: InkyGroup,
+    species: 'Coprinus comatus',
+    names: 'Shaggy Mane',
+    habitat: 'Found all over the Northern Hemisphere. They can grow in woods but they prefer urban areas, on lawns, along gravel roads and generallly in disturbed areas where they are very common. They can even grow through asphalt!',
+    season: 'Spring - Fall.',
+    edibility: 'Edible when young.',
+    description: 'Cone shaped, gilled cap on a white stalk with a veil. Shaggy cap that turns into a black, dripping inky substance over time. Cap can be white or beige when young. Gills start off white but change to black as the cap begins to ink from the bottom up. The inking is due to the mushrooms amazing ability to digest itself (autodigestion) to release its spores. The spores are concentrated within the dripping, digested parts of the mushroom. The process begins shortly after being harvested and with age.',
+  },
+  {
+    id: 3,
+    family: 'Agaricaceae',
+    picture: puffballGroup,
+    species: 'Lycoperdon perlatum',
+    names: 'Common Puffball',
+    habitat: 'Found all over the world. They can grow in forests, on lawns and along gravel roads. They generally grow in tight knit groups. Like most mushrooms they are Saprotrophic.',
+    season: 'Spring - Fall.',
+    edibility: 'Edible when young.',
+    description: 'Mostly pear shaped about 3cm tall. Their spores mature inside the outer surface (exoperidium) which is covered in small cone shaped spines and warts. When young and the spores immature the inside of the mushroom is white. The mushroom is edible at this stage. With maturity the spores become brown and dust-like. The exoperidium also becomes brown, thinner and more delicate until it bursts releasing a dust cloud of spores. They bioaccumulate heavy metals from the soil which can be used to indicate soil pollution. Extracts of puff balls have been shown to have antimicrobial activity.',
+  },
+  {
+    id: 4,
     family: 'Agaricaceae',
     picture: BirdsEggWithEggs,
     species: 'Nidula candida',
@@ -70,7 +107,8 @@ export const allMushrooms = [
     ]
   },
   {
-    id: 2,
+    id: 5,
+    familyHead: 'Amanitaceae',
     family: 'Amanitaceae',
     picture: Amanita_bigfam,
     species: 'Amanita muscaria',
@@ -107,7 +145,7 @@ export const allMushrooms = [
     ]
   },
   {
-    id: 3,
+    id: 6,
     family: 'Bankeraceae',
     picture: BleedingTooth1,
     species: 'Hydnellum peckii',
@@ -121,7 +159,7 @@ export const allMushrooms = [
     picdetail3: BleedingToothAdult3
   },
   {
-    id: 4,
+    id: 7,
     family: 'Boletaceae',
     picture: bitterBoleteSide,
     species: 'Tylopilus felleus',
@@ -133,7 +171,7 @@ export const allMushrooms = [
     // picdetail1: ThreeBigAmanitaTop,
   },
   { 
-    id: 5,
+    id: 8,
     family: 'Boletaceae',
     picture: redCrackingBolete,
     species: 'Xerocomellus zelleri',
@@ -145,7 +183,7 @@ export const allMushrooms = [
     picdetail1: BigAmanitaTop,
   },
   {
-    id: 6,
+    id: 9,
     family: 'Caloscyphaceae',
     picture: orangecup1,
     species: 'Caloscypha fulgens',
@@ -162,7 +200,7 @@ export const allMushrooms = [
     predators: "Unknown"
   },
   {
-    id: 7,
+    id: 10,
     family: 'Mycenaceae',
     picture: Bleeding_mycena,
     species: 'Mycena haematopus',
@@ -174,7 +212,7 @@ export const allMushrooms = [
     // picdetail1: ThreeBigAmanitaTop,
   },-
   {
-    id: 8,
+    id: 11,
     family: 'Pleurotaceae',
     picture: Oyster_mush_top1,
     species: 'Pleurotus pulmonarius',
@@ -186,7 +224,7 @@ export const allMushrooms = [
     // picdetail1: ThreeBigAmanitaTop,
   },
   {
-    id: 9,
+    id: 12,
     family: 'Strophariaceae',
     picture: Pholiota_aurivella,
     species: 'Pholiota aurivella',
