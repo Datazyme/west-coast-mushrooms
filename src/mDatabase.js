@@ -25,7 +25,7 @@ import Bleeding_mycena from './images/Bleeding_mycena.jpg'
 import ShaggyParasol from './images/ShaggyParasol.jpg'
 import InkyGroup from './images/InkyGroup.jpg'
 import puffballGroup from './images/puffballGroup.jpeg'
-
+import OrangeOakBolete from './images/OrangeOakBolete.jpg'
 
 
 
@@ -161,6 +161,18 @@ export const allMushrooms = [
   {
     id: 7,
     family: 'Boletaceae',
+    picture: OrangeOakBolete,
+    species: 'Leccinum aurantiacum',
+    names: 'Orange Oak Bolete',
+    habitat: 'This mushroom has a very short growing season here, from around the end of September to end of October depending on climate. They grow when the weather begins to get cool and wet but not too cold or too wet. It has been found in forests throughout Europe and North America. It is generally associated with poplar trees but can be found around other deciduous trees such as birch and willow. It is not common around the Vancouver area and surrounding pacific coast mountain ranges but becomes increasingly more common moving east, toward the rocky mountains.',
+    season: 'Fall',
+    edibility: 'Edible and choice',
+    description: 'The cap is a dark reddish brown and globular when young. Upon maturity it spreads and forms a more traditional shallow convex shape. The stem is thick, pale beige or white with dark specks (scabers) covering the stem. Like all boletes the spores are underneath the cap within sponge-like structures. They are white to light beige. They grow mostly individually and less commonly in small groups of 2 or 3. They have a mycorrhizal association with their trees. There have been very few scientific studies conducted on this mushroom. The few that exist consist of several studies to determine accumulation of metallic compounds within the mushroom from Poland, a study to determine accumulation of 137Cs in mushrooms growing around Chernobyl and few others exploring some biochemical compounds.',
+    // picdetail1: ThreeBigAmanitaTop,
+  },
+  {
+    id: 8,
+    family: 'Boletaceae',
     picture: bitterBoleteSide,
     species: 'Tylopilus felleus',
     names: 'Bitter Bolete',
@@ -171,7 +183,7 @@ export const allMushrooms = [
     // picdetail1: ThreeBigAmanitaTop,
   },
   { 
-    id: 8,
+    id: 9,
     family: 'Boletaceae',
     picture: redCrackingBolete,
     species: 'Xerocomellus zelleri',
@@ -183,7 +195,7 @@ export const allMushrooms = [
     picdetail1: BigAmanitaTop,
   },
   {
-    id: 9,
+    id: 10,
     family: 'Caloscyphaceae',
     picture: orangecup1,
     species: 'Caloscypha fulgens',
@@ -200,7 +212,7 @@ export const allMushrooms = [
     predators: "Unknown"
   },
   {
-    id: 10,
+    id: 11,
     family: 'Mycenaceae',
     picture: Bleeding_mycena,
     species: 'Mycena haematopus',
@@ -210,9 +222,9 @@ export const allMushrooms = [
     edibility: 'Edible, tasty',
     description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',
     // picdetail1: ThreeBigAmanitaTop,
-  },-
+  },
   {
-    id: 11,
+    id: 12,
     family: 'Pleurotaceae',
     picture: Oyster_mush_top1,
     species: 'Pleurotus pulmonarius',
@@ -224,7 +236,7 @@ export const allMushrooms = [
     // picdetail1: ThreeBigAmanitaTop,
   },
   {
-    id: 12,
+    id: 13,
     family: 'Strophariaceae',
     picture: Pholiota_aurivella,
     species: 'Pholiota aurivella',

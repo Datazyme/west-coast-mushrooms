@@ -356,7 +356,7 @@ footer {
   }
   
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400;
   }
   
@@ -410,6 +410,8 @@ footer {
   .nav__logo {
     width: 4rem;
   }
+
+  /* MushroomItem */
 
   .mushroom {
     display: flex;
