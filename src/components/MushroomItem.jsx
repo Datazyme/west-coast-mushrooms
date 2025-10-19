@@ -7,15 +7,12 @@ const MushroomItem = ({mushroomID, familyHead, family, picture, species,
   return (
     <><h1 className='species_title'>{familyHead}</h1>
     <article className='mushroom'>
-      {/* <div className='species_title'><h1>{familyHead}</h1></div>    */}
       <div className='mushroom__picture'>
-
         <h1>{family}</h1>
         <img src={picture} alt={species}></img>
       </div>
 
       <div className='mushroom__content'>
-        {/* <div className='species_title'><h1>{familyHead}</h1></div> */}
         <Link to={`/mushrooms/${mushroomID}`}>
           <h2>{species}</h2>
         </Link>

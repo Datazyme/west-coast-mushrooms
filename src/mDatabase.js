@@ -26,7 +26,9 @@ import ShaggyParasol from './images/ShaggyParasol.jpg'
 import InkyGroup from './images/InkyGroup.jpg'
 import puffballGroup from './images/puffballGroup.jpeg'
 import OrangeOakBolete from './images/OrangeOakBolete.jpg'
-
+import OrangeOakBoleteSmall from './images/OrangeOakBoleteSmall.jpg'
+import OrangeOakBoleteAdultSide from './images/OrangeOakBoleteAdultSide.jpg'
+import OrangeOakBoleteTopOnly from './images/OrangeOakBoleteTopOnly.jpg'
 
 
 
@@ -168,7 +170,27 @@ export const allMushrooms = [
     season: 'Fall',
     edibility: 'Edible and choice',
     description: 'The cap is a dark reddish brown and globular when young. Upon maturity it spreads and forms a more traditional shallow convex shape. The stem is thick, pale beige or white with dark specks (scabers) covering the stem. Like all boletes the spores are underneath the cap within sponge-like structures. They are white to light beige. They grow mostly individually and less commonly in small groups of 2 or 3. They have a mycorrhizal association with their trees. There have been very few scientific studies conducted on this mushroom. The few that exist consist of several studies to determine accumulation of metallic compounds within the mushroom from Poland, a study to determine accumulation of 137Cs in mushrooms growing around Chernobyl and few others exploring some biochemical compounds.',
-    // picdetail1: ThreeBigAmanitaTop,
+    picdetail1: OrangeOakBoleteSmall,
+    picdetail2: OrangeOakBoleteAdultSide,
+    picdetail3: OrangeOakBoleteTopOnly,
+    background: ``,
+    biology: ``,
+    medley: ``,
+    similarSpecies: `Leccinum vulpinum, Leccinum albostipitatum`,
+    references: [
+      {
+        title: `Wikipedia - Leccinum aurantiacum`,
+        url: `https://en.wikipedia.org/wiki/Leccinum_aurantiacum`
+      },
+      {
+        title: `First-Nature`,
+        url: `https://www.first-nature.com/fungi/leccinum-aurantiacum.php`
+      },
+      {
+        title:`List of PubMed articles about Leccinum aurantiacum`,
+        url: `https://pubmed.ncbi.nlm.nih.gov/?term=Leccinum%20aurantiacum`
+      },
+    ]
   },
   {
     id: 8,
