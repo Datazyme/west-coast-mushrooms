@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <ul className='footer__categories'>
+        <li><Link to='/mushrooms/families/Agaricaceae'>Agaricaceae</Link></li>
         <li><Link to='/mushrooms/families/Amanitaceae'>Amanitaceae</Link></li>
         <li><Link to='/mushrooms/families/Boletaceae'>Boletaceae</Link></li>
         <li><Link to='/mushrooms/families/Strophariaceae'>Strophariaceae</Link></li>

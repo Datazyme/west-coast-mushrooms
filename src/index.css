@@ -43,7 +43,6 @@
 :root {
   --color-primary: rgb(157, 102, 179);
   --color-white: #fff;
-  --color-green: hsla(154, 88%, 33%, 0.416);
   --color-red: rgb(255, 63, 63);
   --color-gray-100: hsl(220, 20%, 10%, 5%);
   --color-gray-200: hsl(220, 20%, 10%, 10%);
@@ -233,6 +232,18 @@ nav {
   align-items: center;
   gap: 3rem;
 } */
+
+/*=======About=====*/
+.about{
+  padding-top: 20rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  
+}
+
+.about_title {
+  color:rgb(0, 17, 12);
+}
 
 
 /*=================MushroomItem==================*/

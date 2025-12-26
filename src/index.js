@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import MushroomDetails from './pages/MushroomDetails'
 import MushroomFamilies from './pages/MushroomFamilies'
 import MushroomEdibility from './pages/MushroomEdibility'
+import About from './pages/About'
 
 
 const router = createBrowserRouter([
@@ -20,7 +21,8 @@ const router = createBrowserRouter([
       {index: true, element: <Home></Home>},
       {path: 'mushrooms/:id', element: <MushroomDetails></MushroomDetails>},
       {path: 'mushrooms/families/:family', element: <MushroomFamilies></MushroomFamilies>},
-      {path: 'mushrooms/edibility/:edibility', element: <MushroomEdibility></MushroomEdibility>}
+      {path: 'mushrooms/edibility/:edibility', element: <MushroomEdibility></MushroomEdibility>},
+      {path: 'About', element: <About></About>}
     ]
   }
 ])

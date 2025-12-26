@@ -29,6 +29,9 @@ import OrangeOakBolete from './images/OrangeOakBolete.jpg'
 import OrangeOakBoleteSmall from './images/OrangeOakBoleteSmall.jpg'
 import OrangeOakBoleteAdultSide from './images/OrangeOakBoleteAdultSide.jpg'
 import OrangeOakBoleteTopOnly from './images/OrangeOakBoleteTopOnly.jpg'
+import Underoyster from './images/Underoyster.jpeg'
+import oysterInSun from './images/oysterInSun.jpg'
+import BabyOyster from './images/BabyOyster.jpeg'
 
 
 
@@ -255,7 +258,28 @@ export const allMushrooms = [
     season: 'Late spring to early fall.',
     edibility: 'Edible, tasty',
     description: 'Grows in clusters on the trunks of dead trees either fallen or standing. It does not generally grow on stumps. The stem is almost absent with the mushroom growing like a fan or funnel out of the wood. The cap is beige or light grey spreading out like a fan with frilly edges. The gills are white and extend from the tip of the cap to the end of the stem where it emerges from the wood. This species is often confused with the first cultivated oyster mushroom Pleurotus ostreatus as they look very much alike. Pleurotus ostreatus can be found worldwide but does not grow in the pacific northwest. Like many mushrooms that grow on dead trees both species are saprotrophic. Amazingly they are both also carnivorous, eating parasitic nematodes.',
-    // picdetail1: ThreeBigAmanitaTop,
+    picdetail1: Underoyster,
+    picdetail2: oysterInSun,
+    picdetail3: BabyOyster,
+    background: ``,
+    biology: ``,
+    medley: ``,
+    similarSpecies: `Pleurotus ostreatus, Pleurotus populinus`,
+    references: [
+      {
+        title: `Wikipedia - Pleurotus pulmonarius`,
+        url: `https://en.wikipedia.org/wiki/Pleurotus_pulmonarius`
+      },
+      {
+        title: `The Toxin Produced by Pleurotus ostreatus Reduces the Head Size of Nematodes`,
+        url: `https://www.jstage.jst.go.jp/article/bpb/31/4/31_4_574/_pdf/-char/en
+`
+      },
+      {
+        title:`Beaty Biodiversity Museum at UBC`,
+        url: `https://explore.beatymuseum.ubc.ca/mushroomsup/P_pulmonarius.html`
+      },
+    ]
   },
   {
     id: 13,
@@ -264,9 +288,9 @@ export const allMushrooms = [
     species: 'Pholiota aurivella',
     names: 'Golden Pholiota',
     habitat: 'Grows in clusters on decaying wood. Often found associated with mosses.',
-    season: 'Year round except winter.',
-    edibility: 'Inedible, not recommended.',
-    description: 'This mushroom is rather small and fragile. Perhaps about 5cm in height or less. It "bleeds" a dark red latex when cut or broken. The colour ranges from dark red to a reddish brown of both the stem and cap. The gills are a light reddish brown to white.',
+    season: 'September - November.',
+    edibility: 'Varied. Pholiota microspora is edible and choice. The other species are either unknown, inedible or slightly poisonous',
+    description: 'This genus includes several species characterized by scaly caps of varying shades of yellow,  gills,  partial veils and a yellow to white stem. The mushrooms are sticky and slimy when moist. Pholiota aurivella is perhaps the most common of the Pholiotas on the west coast.',
     // picdetail1: ThreeBigAmanitaTop,
   }
 ]

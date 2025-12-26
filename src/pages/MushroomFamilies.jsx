@@ -14,7 +14,7 @@ const MushroomFamilies = () => {
       </div>
       <div className='mushroom-detail__block'>
           <div className='mushroom__picture'>
-            <img src={item.picture} alt={item.names}></img>
+            <img key={item.id} src={item.picture} alt={item.names}></img>
           </div>
           <div className='mushroom__content'>
             <h2>Description</h2>
