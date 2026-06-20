@@ -13,7 +13,7 @@ const Header = ({mushroomID, family, picture, species,
           <img src={logo1} alt='Navbar Logo'></img>
         </Link>
         <h1 className='title'>West Coast Mushrooms</h1>
-        <Link to='/About' className='nav__logo'><h2 className='about_title'>About</h2>
+        <Link to='/About' className='nav__logo'><h3 className='about__title'>About</h3>
         </Link>
         {/* <select className='nav__logo'>
           

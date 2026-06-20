@@ -8,8 +8,9 @@ import Amanita_bigfam from './images/Amanita_bigfam.jpg'
 import BigAmanitaTop from './images/BigAmanitaTop.jpg'
 import BleedingTooth1 from './images/BleedingTooth1.jpg'
 import BleedingToothAdult1 from './images/BleedingToothAdult1.jpg'
-import BleedingToothAdult2 from './images/BleedingToothAdult2.jpg'
+import BleedingToothMidRed from './images/BleedingToothMidRed.jpg'
 import BleedingToothAdult3 from './images/BleedingToothAdult3.jpg'
+import HPekiiMidAgeBlack from './images/HPekiiMidAgeBlack.jpg'
 import Baby_amanita_bite1 from './images/Baby_amanita_bite1.jpg'
 import Oyster_mush_top1 from './images/Oyster_mush_top1.jpg'
 import BirdsEggWithEggs from './images/BirdsEggWithEggs.jpg'
@@ -159,9 +160,12 @@ export const allMushrooms = [
     season: 'Late summer - early fall.',
     edibility: "Not known to be poisonous but are reported to be very bitter. It's amazing someone was brave enough to taste it!",
     description: "The shape of the fruiting body is irregular with pores that exude a red liquid when the mushroom is young. Several fruiting bodies can fuse together (confluence) when they are clustered. Underneath the cap the mushroom is conical or block like and is covered in teeth-like hymeniam. These hymeniam are spore producing structures that look like tubes or teeth. Other mushrooms have gills or pores underneath the cap which produce spores. As the mushroom matures it stops producing the red liquid and the cap becomes brown.",
-    picdetail1: BleedingToothAdult1,
-    picdetail2: BleedingToothAdult2,
-    picdetail3: BleedingToothAdult3
+    picdetail1: BleedingToothMidRed,
+    picdetail2: HPekiiMidAgeBlack,
+    picdetail3: BleedingToothAdult1,
+    picdetail4: BleedingToothAdult3,
+    background:`H.pekii was first described scientifically by American mycologist Howard James Banker in 1913. It is a species of tooth fungi belonging to the genus Hydnellum in the family Bankeraceae (order Thelephorales). It is found primarily in the Northern Hemisphere, Pacific Northwest, Europe, Iran and South Korea in forested and mountainous regions. The genus contains around 120 species. The fruitbodies of its members grow by slowly enveloping nearby bits of grass and vegetation. There is great variability in the form of Hydnellum fruitbodies, which are greatly influenced by environmental conditions such as rainfall and humidity, drying winds, and temperature. Several species have become the focus of increasing conservation concern following widespread declines in abundance. H.pekii populations are in decline in many parts of Eurasia.`,
+    biology: ``,
   },
   {
     id: 7,

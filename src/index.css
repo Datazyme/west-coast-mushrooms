@@ -149,7 +149,7 @@ section {
 }
 
 .container {
-  width: 98%;
+  width: 100%;
   margin-inline: auto;
   /* background: rgba(164, 235, 195, 0.418); */
 }
@@ -206,7 +206,7 @@ nav {
   flex-direction: row;
   align-items: center;
   height: 100%;
-  gap: 20%;
+  gap: 10%;
 }
 
 .title {
@@ -234,15 +234,19 @@ nav {
 } */
 
 /*=======About=====*/
-.about{
+/* .about{
   padding-top: 20rem;
   padding-left: 8rem;
   padding-right: 8rem;
   
-}
+} */
 
 .about_title {
+  font-family: "Almendra", serif;
   color:rgb(0, 17, 12);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 4rem;
 }
 
 
@@ -362,12 +366,25 @@ footer {
 /*=================@media Media queries==================*/
 @media screen and (max-width: 1000px) {
 
+    body {
+    overflow-x: hidden;
+  }
+
+
   .container {
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .h2 {
+    font-size: 0.5rem;
+    font-weight: 200
   }
   
-  h1 {
-    font-size: 3.5rem;
+  /* h1 {
+    font-size: 3rem;
     font-weight: 400;
   }
   
@@ -393,7 +410,7 @@ footer {
     font-size: medium;
     padding-top: 1rem;
   }
-  
+   */
   img {
     display: block;
     width: 100%;
@@ -409,25 +426,34 @@ footer {
   /* Navbar */
   .nav__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height: fit-content;
     align-items: center;
-    gap: 2rem;
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 0.5rem;
   }
 
   .nav__logo {
     width: 4rem;
   }
 
+  .about_title {
+  font-family: "Almendra", serif;
+  color:rgb(0, 17, 12);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
   /* MushroomItem */
 
   .mushroom {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    justify-content: center;
+    /* padding: 1rem; */
   }
 
   .mushroom__picture {
