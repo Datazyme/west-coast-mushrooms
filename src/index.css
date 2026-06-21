@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 
@@ -113,7 +113,7 @@ h2 {
 
 h2:hover {
   color: rgb(79, 3, 145);
-  font-size: 4rem;
+  font-weight: 600;
 }
 
 h3 {
@@ -213,7 +213,7 @@ nav {
   font-family: "Almendra", serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 5rem;
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,7 +257,7 @@ nav {
   /* border:#0c0c22; */
   padding-top: 2rem;
   font-weight: 400;
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -366,9 +366,9 @@ footer {
 /*=================@media Media queries==================*/
 @media screen and (max-width: 1000px) {
 
-    body {
+    /* body {
     overflow-x: hidden;
-  }
+  } */
 
 
   .container {
@@ -424,15 +424,21 @@ footer {
   
 
   /* Navbar */
+
+  .nav {
+    max-width: screen;
+  }
   .nav__container {
     display: flex;
     flex-direction: column;
     height: fit-content;
     align-items: center;
+    padding: 0;
+    margin: 0;
   }
 
   .title {
-    font-size: 0.5rem;
+    font-size: 2rem;
   }
 
   .nav__logo {
@@ -453,6 +459,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    display: inline-block;
+    padding: 1rem
     /* padding: 1rem; */
   }
 
@@ -476,6 +484,17 @@ footer {
   .mushroom-content-block {
     margin-top: 1.5rem;
     max-width: fit-content;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: screen;
+  }
+
+  .footer__categories {
+    display: inline;
   }
 
 
