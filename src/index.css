@@ -57,6 +57,7 @@
 
   --container-width-lg: 95%;
   --container-width-md: 92%;
+  --container-width-sm: 80%;
   --form-width: 50%;
 
   --radius-1: 0.3rem;
@@ -150,7 +151,7 @@ section {
 
 .container {
   width: 100%;
-  margin-inline: auto;
+  margin: 0;
   /* background: rgba(164, 235, 195, 0.418); */
 }
 
@@ -177,13 +178,13 @@ section {
   color: var(--color-white)
 }
 
-.center {
+/* .center {
   text-align: center;
   padding-top: 5rem;
   margin-inline: auto;
   display: block;
   width: 100%;
-}
+} */
 
 .error-page h2 {
   margin-top: 3rem;
@@ -257,7 +258,7 @@ nav {
   /* border:#0c0c22; */
   padding-top: 2rem;
   font-weight: 400;
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,7 +270,7 @@ nav {
     /* background: rgba(181, 233, 221, 0.333);
     border:15px solid black;
     border-style: groove; */
-    padding: 4rem;
+    padding: 2rem;
     padding-bottom: 2rem;
     transition: var(--transition);
     cursor: default;
@@ -366,9 +367,9 @@ footer {
 /*=================@media Media queries==================*/
 @media screen and (max-width: 1000px) {
 
-    /* body {
+    body {
     overflow-x: hidden;
-  } */
+  }
 
 
   .container {
@@ -376,12 +377,14 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
-  .h2 {
+  /* .h2 {
     font-size: 0.5rem;
     font-weight: 200
-  }
+  } */
   
   /* h1 {
     font-size: 3rem;
@@ -411,9 +414,12 @@ footer {
     padding-top: 1rem;
   }
    */
+ 
   img {
     display: block;
-    width: 100%;
+    object-fit: cover;
+    width: 90%;
+    border-radius: 25px;
     pointer-events: none;
   }
   
@@ -450,7 +456,7 @@ footer {
   color:rgb(0, 17, 12);
   font-weight: 400;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
   /* MushroomItem */
@@ -460,8 +466,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     display: inline-block;
-    padding: 1rem
-    /* padding: 1rem; */
+    padding: 1rem;
   }
 
   .mushroom__picture {
@@ -470,7 +475,7 @@ footer {
 
   .mushroom__content {
     margin-top: 1.5rem;
-    max-width: 100%;
+    max-width: 90%;
   }
 
   /* Mushroom Detail */
