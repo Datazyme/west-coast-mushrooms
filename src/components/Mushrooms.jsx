@@ -3,6 +3,7 @@ import {allMushrooms} from '../mDatabase.js'
 import MushroomItem from './MushroomItem.jsx'
 
 const Mushrooms = () => {
+  eslint-disable-next-line
   const [mushroom, setMushroom] = useState(allMushrooms)
   return (
     <section key={mushroom.id} className='mushrooms'>
